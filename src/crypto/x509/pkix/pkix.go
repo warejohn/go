@@ -7,7 +7,7 @@
 package pkix
 
 import (
-	"encoding/asn1"
+	"github.com/letsencrypt/go/src/encoding/asn1"
 	"math/big"
 	"time"
 )

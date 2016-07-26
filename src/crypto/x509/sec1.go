@@ -7,7 +7,7 @@ package x509
 import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
-	"encoding/asn1"
+	"github.com/letsencrypt/go/src/encoding/asn1"
 	"errors"
 	"fmt"
 	"math/big"

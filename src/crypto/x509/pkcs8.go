@@ -5,8 +5,8 @@
 package x509
 
 import (
-	"crypto/x509/pkix"
-	"encoding/asn1"
+	"github.com/letsencrypt/go/src/crypto/x509/pkix"
+	"github.com/letsencrypt/go/src/encoding/asn1"
 	"errors"
 	"fmt"
 )

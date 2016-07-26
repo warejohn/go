@@ -6,7 +6,7 @@ package x509
 
 import (
 	"crypto/rsa"
-	"encoding/asn1"
+	"github.com/letsencrypt/go/src/encoding/asn1"
 	"errors"
 	"math/big"
 )

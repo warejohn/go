@@ -12,7 +12,7 @@ package main
 import (
 	"crypto/rand"
 	"crypto/x509"
-	"crypto/x509/pkix"
+	"github.com/letsencrypt/go/src/crypto/x509/pkix"
 	"encoding/pem"
 	"math/big"
 	"time"

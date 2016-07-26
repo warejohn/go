@@ -5,7 +5,7 @@
 package x509
 
 import (
-	"crypto/x509/pkix"
+	"github.com/letsencrypt/go/src/crypto/x509/pkix"
 	"encoding/pem"
 	"errors"
 	"runtime"
